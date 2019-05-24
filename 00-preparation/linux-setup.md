@@ -22,7 +22,7 @@ try __kate__ or if you do not already have a preferred editor, then check out
 Sublime is what we'll be using in class.
 
 Finally, you will need to install Node.js, and git.  They can all be
-install with your systems standard software installer via:
+installed with your systems standard software installer via:
 
 
 ### Redhat, Fedora, CentOS
