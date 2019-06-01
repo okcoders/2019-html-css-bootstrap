@@ -1,8 +1,14 @@
 # Hello World
 
+To be a good programmer you must learn to be ok with not knowing. Not knowing how to solve a problem, not knowing the next step, not knowing a particular term. You must also know when to ask someone something, vs. when to look it up online yourself. 
+
+Today we will be spending some time flexing the not knowing muscle, by looking up and learning as much as we can on our own about some core programming concepts.
+
 ## Term Crash Course
 
 ### Hello World
+### Algorithm
+
 ### Stack Overflow
 ### DRY
 ### Chrome Dev Tools
@@ -14,11 +20,15 @@
 ### Open Source
 ### Back End 
 ### Front End
-### Algorithm
-- sort example
-[5, 14, 7, 42, 2, 1, -3, 6, 32]
 ### Boolean
 ### Linux
+### Bug
+### Programming Language
+### Data Type
+### Database
+### http vs. https
+### POST request
+
 
 ### Additional terms:
 - [Terms for beginners](https://www.freecodecamp.org/news/these-are-the-top-computer-science-terms-you-should-know-if-youre-new-to-programming-fc8592242622/)
@@ -51,6 +61,6 @@ The world of web programming is vast, but we have selected a very specific slice
 ### express
 ### react
 
+## Homework
 
-
-
+Recreate with html the best you can the pdf in this repo called homework.pdf
