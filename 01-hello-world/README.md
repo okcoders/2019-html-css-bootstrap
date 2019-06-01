@@ -9,25 +9,25 @@ Today we will be spending some time flexing the not knowing muscle, by looking u
 ### Hello World
 ### Algorithm
 
-### Stack Overflow
-### DRY
-### Chrome Dev Tools
-### Git
-### Github
-### Terminal/bash/shell
-### Text Editor
-### Localhost
-### Open Source
-### Back End 
-### Front End
-### Boolean
-### Linux
-### Bug
-### Programming Language
-### Data Type
-### Database
-### http vs. https
-### POST request
+### Stack Overflow (super nova)
+### DRY (super nova)
+### Chrome Dev Tools (super nova)
+### Git (cyber6)
+### Github (cyber6)
+### Terminal/bash/shell (cyber6)
+### Text Editor (cyber6)
+### Localhost (cyber6)
+### Open Source (cyber6)
+### Back End (cyber6)
+### Front End (cyber6)
+### Boolean (929)
+### Linux (929)
+### Bug (929)
+### Programming Language (929)
+### Data Type (skyhooks)
+### Database (skyhooks)
+### http vs. https (skyhooks)
+### POST request (skyhooks)
 
 
 ### Additional terms:
@@ -63,4 +63,6 @@ The world of web programming is vast, but we have selected a very specific slice
 
 ## Homework
 
-Recreate with html the best you can the pdf in this repo called homework.pdf
+- Recreate with html the best you can the pdf in this repo called homework.pdf
+- Intro to css [code academy](https://www.codecademy.com/courses/learn-css/lessons/css-setup-selectors/exercises/intro-to-css)
+
