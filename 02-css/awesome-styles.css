@@ -1,6 +1,12 @@
 img {
-  width: 50%;
   padding: 25px;
+  max-height: 300px;
+}
+
+.rounded {
+  border-radius: 100%;
+  min-width: 300px;
+  min-height: 300px;
 }
 
 .button {
