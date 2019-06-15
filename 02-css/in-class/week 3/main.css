@@ -130,3 +130,34 @@ body {
   font-size: 1.5em;
   
 }
+
+/* MEDIA QUERIES */
+
+/* Only on Phones */
+@media (max-width: 600px) {
+
+  body {
+    background-color: red;
+  }
+
+  .nav {
+    /* display: none; */
+    min-height: 150px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+  }
+
+}
+
+
+/* Only on Desktop & Tablets */
+@media (min-width: 600px) {
+
+  body {
+    background-color: blue;
+  }
+
+}
+
