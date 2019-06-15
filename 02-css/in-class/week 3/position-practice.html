@@ -5,66 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Positioning Practice</title>
+
+  <link rel="stylesheet" href="./main.css">
 </head>
-
-<style>
-  .breakfast {
-    max-height: 350px;
-    
-    /* 
-      Margin Trick to Center
-     */
-
-    display: block;
-    margin: 0 auto;
-
-  }
-  .rounded {
-    height: 200px;
-    width: 200px;
-    border-radius: 100%;
-  }
-
-  .hero {
-    text-align: center;
-    /* 
-      Using Flexbox
-     */
-     /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
-  }
-
-  /* Two Columns */
-  .two-columns {
-    background-color: lightgrey;
-    min-height: 10rem;
-  }
-
-  .half-width {
-    width: 50%;
-    height: 5rem;
-  }
-
-  .red {
-    background-color: red;
-    float: left;
-  }
-
-  .blue {
-    background-color: blue;
-    float: right;
-  }
-
-  .no-more-floats {
-    clear: both;
-  }
-
-</style>
 
 <body>
 
+  <!-- Fixed Positioning -->
+
+  <!-- <div class="navbar-fixed"> NAVBAR </div> -->
 
 
   <!-- How to Center -->
@@ -97,11 +46,31 @@
 
   <!-- Background Photo -->
 
-  <!-- Fixed Positioning -->
-
   <!-- Absolute Positioning -->
 
+<!-- <div id="content">
+  Fascinating Content 👀
+</div> -->
+
   <!-- Relative Positioning -->
+
+  <!-- <div class="relative">
+
+    <div id="content">
+      Fascinating Content 👀
+    </div>
+
+  </div> -->
+
+
+  <div style="position: relative; padding: 500px; background-color: cadetblue;">
+
+    <div style="position: absolute; top: 0px; left: 0px; background-color: #333; color: white;">
+      Fascinating Content: The Sequel  💕
+    </div>
+
+  </div>
+
 
   <!-- Floats -->
 
