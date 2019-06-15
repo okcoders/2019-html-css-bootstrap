@@ -8,41 +8,94 @@
 </head>
 
 <style>
-  div {
-    background-color: brown;
-    height: 50px;
-    width: 50px;
-    margin: 2rem;
-  }
+  .breakfast {
+    max-height: 350px;
+    
+    /* 
+      Margin Trick to Center
+     */
 
-  .blue-box {
-    height: 50px;
-    width: 50px;
-    margin: 2rem;
-    background-color: blue;
-  }
+    display: block;
+    margin: 0 auto;
 
-  #big-box {
+  }
+  .rounded {
     height: 200px;
     width: 200px;
+    border-radius: 100%;
+  }
+
+  .hero {
+    text-align: center;
+    /* 
+      Using Flexbox
+     */
+     /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+  }
+
+  /* Two Columns */
+  .two-columns {
+    background-color: lightgrey;
+    min-height: 10rem;
+  }
+
+  .half-width {
+    width: 50%;
+    height: 5rem;
+  }
+
+  .red {
+    background-color: red;
+    float: left;
+  }
+
+  .blue {
+    background-color: blue;
+    float: right;
+  }
+
+  .no-more-floats {
+    clear: both;
   }
 
 </style>
 
 <body>
 
-  <h1>Position!</h1>
 
-  <div class="blue-box"></div>
-  <div class="blue-box"></div>
-  <div class="blue-box"></div>
-  <div class="blue-box"></div>
-  <div class="blue-box" id="big-box"></div>
-
-
-  <div></div>
 
   <!-- How to Center -->
+  <div class="hero">
+
+    <h1>Position!</h1>
+
+    <img src="https://images.unsplash.com/photo-1560513880-651eec4710c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Delicious Parfait" class="breakfast rounded">
+    <p>Awesome Breakfast Time!</p>
+
+  </div>
+
+  <!-- 2 Columns -->
+  <div class="two-columns">
+
+    <div class="half-width red">
+      Column 1
+    </div>
+
+    <div class="half-width blue">
+      Column 2
+    </div>
+
+  <div class="no-more-floats">
+    <p>We don't want things to float here...</p>
+  </div>
+
+
+  </div>
+
+  <!-- Background Photo -->
 
   <!-- Fixed Positioning -->
 
