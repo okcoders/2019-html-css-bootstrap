@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 12px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5em;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+p {
+    color: #333;
+}
+p img {
+    width: 240px;
+    margin: 12px;
+}
+.float-right {
+    float:right;
+}
+.float-left {
+    float:left;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.columns p {
+    /* width: 33%; */
+    padding: 6px;
+}
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery img {
+    width: 180px;
+}
