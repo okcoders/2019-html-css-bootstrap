@@ -1,3 +1,26 @@
-h1 {
-  /* color: red; */
+.nav-icons a {
+  margin-right: 12px;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.main-content {
+  margin-top: 3rem;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container .card {
+  margin-bottom: 3rem;
+  max-width: 100%;
+}
+
+.sidebar-container .list-group-item img {
+  border: 3px solid #E1306C;
 }
